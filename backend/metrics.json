@@ -1,0 +1,38 @@
+{
+  "dataset": "emails_generated.csv",
+  "n_emails": 800,
+  "evaluation": "5-fold stratified cross-validation (out-of-fold predictions)",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "confusion_matrix": [
+    [
+      400,
+      0
+    ],
+    [
+      0,
+      400
+    ]
+  ],
+  "labels": [
+    "Safe",
+    "Phishing"
+  ],
+  "holdout": {
+    "test_size": 200,
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": [
+      [
+        100,
+        0
+      ],
+      [
+        0,
+        100
+      ]
+    ]
+  }
+}
