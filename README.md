@@ -1,6 +1,6 @@
 # Phishing Email Detector
 
-A professional React and Flask phishing-email detection application built with scikit-learn.
+A cybersecurity web application that detects potential phishing emails by analyzing suspicious keywords, malicious URLs, and common phishing indicators. Built with React, Flask, and scikit-learn.
 
 ## Features
 
